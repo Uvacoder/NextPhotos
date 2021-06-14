@@ -67,7 +67,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Raleway&display=swap");
 
 .footer-panel {
-  height: 50vh;
+  height: 60vh;
   background-color: #4241a5;
 }
 
