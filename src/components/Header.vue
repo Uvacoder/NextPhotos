@@ -64,11 +64,11 @@ export default {
   gap: 30px;
 }
 
-#menu {
+.navbar-collapse {
   display: flex;
   justify-content: flex-end;
 }
-#menu a {
+.navbar-collapse a {
   font-size: 15px;
   font-weight: 500;
   color: #4241a5 !important;
@@ -81,7 +81,7 @@ button {
 }
 
 @media only screen and (max-width: 900px) {
-  #menu {
+  .navbar-collapse {
     display: flex;
     background: rgb(189, 189, 189);
     justify-content: flex-start;
