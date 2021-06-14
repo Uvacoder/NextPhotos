@@ -12,6 +12,7 @@
           </router-link>
           <span id="cap">Seeing the world throught lens </span>
           <button
+            v-on:click="show = !show"
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -22,7 +23,11 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup menu">
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavAltMarkup menu"
+            v-show="show"
+          >
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="#">Project </a>
@@ -38,6 +43,16 @@
 <script>
 export default {
   name: "Header",
+  data() {
+    return {
+      show: false,
+    };
+  },
+  /* methods: {
+    Nav() {
+      this.showNav === !this.showNav;
+    },
+  },*/
 };
 </script>
 
