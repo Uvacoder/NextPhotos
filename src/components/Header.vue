@@ -22,7 +22,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup menu">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="#">Project </a>
@@ -64,11 +64,11 @@ export default {
   gap: 30px;
 }
 
-.navbar-collapse {
+#menu {
   display: flex;
   justify-content: flex-end;
 }
-.navbar-collapse a {
+#menu a {
   font-size: 15px;
   font-weight: 500;
   color: #4241a5 !important;
@@ -81,7 +81,7 @@ button {
 }
 
 @media only screen and (max-width: 900px) {
-  .navbar-collapse {
+  #menu {
     display: flex;
     background: rgb(189, 189, 189);
     justify-content: flex-start;
