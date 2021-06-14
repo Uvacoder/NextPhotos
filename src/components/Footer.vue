@@ -21,7 +21,9 @@
             <div class="flex-col newsletter">
               <h2>Sign up for newsletters:</h2>
               <div class="mb-3 mt-8" style="margin-top: 24px">
-                <label for="email" class="form-label">Email address</label>
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email address</label
+                >
                 <input
                   type="email"
                   class="form-control"
