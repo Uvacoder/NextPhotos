@@ -19,7 +19,7 @@
               <div>
                 <button
                   type="button"
-                  class="btn hero-button btn-lg btn-outline-primary"
+                  class="btn hero-button btn-sm btn-outline-primary"
                 >
                   Portfolio
                 </button>
@@ -92,10 +92,10 @@ export default {
   padding: 15px 20px 30px 20px;
 }
 .hero-button {
-  height: 55px;
+  height: 40px;
   color: white;
   background-color: #3e0942;
-  width: 190px;
+  width: 130px;
   border-radius: 30px;
   outline: none;
   border-color: none;

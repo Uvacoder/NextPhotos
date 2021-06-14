@@ -52,7 +52,7 @@
       </div>
     </div>
     <div class="copyright">
-      All rights Reserved © {{ new Date().getFullYear() }} Next Photograry.
+      All rights Reserved © {{ new Date().getFullYear() }} Next Photography.
     </div>
   </div>
 </template>
@@ -132,7 +132,17 @@ export default {
     background-color: #4241a5;
   }
   #cap {
-    font-size: 15px;
+    font-size: 12px;
+  }
+
+  .copyright {
+    padding: 20px;
+    text-align: center;
+    background-color: #4241a5;
+    color: #efefef;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: "Caveat", cursive;
   }
 }
 </style>
