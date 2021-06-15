@@ -8,7 +8,7 @@
             class="navbar-brand"
             href="/index"
           >
-            NEXT PHOTO
+            PIXEL PHOTO
           </router-link>
           <span id="cap">Seeing the world throught lens </span>
           <button

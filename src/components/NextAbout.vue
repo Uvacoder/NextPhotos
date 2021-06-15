@@ -3,7 +3,7 @@
     <div class="container-fluid" id="About-next-photo-section">
       <div class="About-next-photo">
         <div class="title">
-          <h2>WHAT WE OFFER HERE AT NEXT PHOTO</h2>
+          <h2>WHAT WE OFFER HERE AT PIXEL PHOTOGRAPHY</h2>
           <p>
             We are a Photography brand currently based in Miami. We currently
             working on a huge project based on future partnership with our
@@ -11,6 +11,84 @@
             Multi-Brand and produced the Best student and groom them to the Most
             sort out models in the field.
           </p>
+        </div>
+
+        <div class="about-next-card" id="first-section">
+          <div class="row">
+            <div class="col-md-6 pss">
+              <div class="Do-card-text">
+                <div class="card-text">
+                  <h2 class="card-text-caption">OUR OFFERS:</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Reiciendis enim corporis eum expedita maiores quis
+                    voluptatibus magni quibusdam vel? Molestias, nam eligendi,
+                    iusto nisi cum at perspiciatis labore ex deserunt dolore
+                    consequuntur dignissimos soluta voluptas, possimus incidunt
+                    eum voluptatibus. Temporibus saepe ipsam minus tempora
+                    cumque. Eveniet voluptatum dolores totam voluptates!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="grid sample-section">
+                <div class="sample-card row">
+                  <div class="col-md-6 sample-picture-card card-1">
+                    <div
+                      class="photo-image"
+                      :style="{ 'background-image': 'url(' + image1 + ')' }"
+                    ></div>
+                  </div>
+                  <div class="col-md-6 sample-picture-card card-2">
+                    <img
+                      class="photo-image"
+                      :style="{ 'background-image': 'url(' + image2 + ')' }"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-next-card" id="second-section">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="grid sample-section">
+                <div class="sample-card row">
+                  <div class="col-md-6 sample-picture-card card-1">
+                    <div
+                      class="photo-image"
+                      :style="{ 'background-image': 'url(' + image3 + ')' }"
+                    ></div>
+                  </div>
+                  <div class="col-md-6 sample-picture-card card-2">
+                    <img
+                      class="photo-image"
+                      :style="{ 'background-image': 'url(' + image4 + ')' }"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 pss">
+              <div class="Do-card-text">
+                <div class="card-text">
+                  <h2 class="card-text-caption">CONNECTING PRICELESSLY</h2>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eligendi nisi laudantium saepe cupiditate in temporibus
+                    repellendus expedita iure illo similique, accusamus quisquam
+                    delectus magni atque! Molestias fugit facere eum ab. Ex quae
+                    iure vero! Consequuntur quam aut assumenda molestias nulla
+                    expedita natus officia dolor quibusdam in exercitationem
+                    ratione totam voluptate architecto asperiores eveniet iure,
+                    quo,
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -20,6 +98,22 @@
 <script>
 export default {
   name: "NextAbout",
+  data() {
+    return {
+      image:
+        "https://images.pexels.com/photos/8072528/pexels-photo-8072528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+
+      image1:
+        "https://images.pexels.com/photos/3831645/pexels-photo-3831645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      image2:
+        "https://images.pexels.com/photos/3035875/pexels-photo-3035875.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+
+      image3:
+        "https://images.pexels.com/photos/3217513/pexels-photo-3217513.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      image4:
+        "https://images.pexels.com/photos/8128680/pexels-photo-8128680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    };
+  },
 };
 </script>
 
@@ -57,7 +151,69 @@ export default {
   color: rgb(39, 39, 39);
 }
 
+.about-next-card {
+  padding: 40px 0px 20px 0px;
+}
+.card-text {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.pss {
+  background-color: #dfdfdf;
+  border-radius: 30px;
+  padding: 30px 0px;
+  height: 260px;
+}
+.Do-card-text {
+  color: aliceblue;
+
+  width: 90%;
+  margin: 0px auto;
+  padding: 20px 10px;
+  background: rgb(59, 58, 121);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card-text-caption {
+  font-family: "Montserrat";
+  padding: 20px 0px 40px 0px;
+  font-size: 30px;
+}
+
+.sample-section {
+  width: 95%;
+  margin: 0px auto;
+}
+
+.sample-card {
+  padding-top: 30px;
+  position: relative;
+}
+.sample-picture-card {
+  border: rgb(76, 33, 126) 20px solid;
+}
+.photo-image {
+  height: 550px;
+  width: 450px;
+  object-fit: none;
+  background-position-x: center;
+  background-size: cover;
+}
+
+.card-2 {
+  position: absolute;
+  top: -50px;
+  right: 70px;
+}
 @media only screen and (max-width: 900px) {
+  #About-next-photo-section {
+    height: auto;
+  }
   .title {
     width: 100%;
     text-align: left;
@@ -77,6 +233,37 @@ export default {
     font-size: 12px;
     font-weight: 500;
     color: rgb(39, 39, 39);
+  }
+
+  .Do-card-text {
+    color: aliceblue;
+
+    width: 100%;
+    margin: 0px 0px;
+    padding: 20px 10px;
+    font-weight: 100;
+    background: #4241a5;
+  }
+
+  .card-text {
+    width: 100%;
+    margin: 0px 0px;
+  }
+
+  .pss {
+    background-color: white;
+    border-radius: 0px;
+    padding: 0px 0px;
+  }
+  .sample-section {
+    display: none;
+  }
+
+  .sample-card {
+    padding-top: 30px;
+  }
+  #second-section {
+    display: none;
   }
 }
 </style>

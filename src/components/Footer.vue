@@ -1,20 +1,21 @@
 <template>
-  <div>
+  <div style="padding-top: 120px">
     <div class="container-fluid footer-panel">
       <div class="footer">
         <div class="row">
           <div class="col-md-6">
             <div class="flex-col footer-brand">
-              NEXT PHOTO <span id="cap">Seeing the world throught lens </span>
+              PIXEL PHOTO <span id="cap">Seeing the world throught lens </span>
             </div>
           </div>
           <div class="col-md-3">
             <div class="flex-col contact-us">
               <h2>Contact Us:</h2>
-              <p>Phone:</p>
-              <p>email:</p>
-              <p>social media:</p>
-              <p>Address :</p>
+              <p>PHONE: +1(757)-505-5977</p>
+              <p>OFFICE: +1(530)-427-2122</p>
+              <p>email: pixelstudioproductions@photographer.net</p>
+
+              <p>Address : MIAMI,FL UNITED STATE</p>
             </div>
           </div>
           <div class="col-md-3">
@@ -52,7 +53,7 @@
       </div>
     </div>
     <div class="copyright">
-      All rights Reserved © {{ new Date().getFullYear() }} Next Photography.
+      All rights Reserved © {{ new Date().getFullYear() }} PIXEL Photography.
     </div>
   </div>
 </template>
@@ -102,16 +103,16 @@ export default {
   padding: 0px 0px 20px 0px;
 }
 .contact-us p {
-  font-family: "Caveat", cursive;
+  font-family: "Montserrat";
   font-weight: 500;
   color: azure;
-  font-size: 20px;
+  font-size: 15px;
   padding: 0px 0px 20px 0px;
 }
 .newsletter label {
-  font-family: "Caveat", cursive;
+  font-family: "Montserrat";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 15px;
 
   color: azure;
   padding: 0px 0px 10px 0px;
