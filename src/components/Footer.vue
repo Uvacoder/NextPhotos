@@ -1,5 +1,5 @@
 <template>
-  <div style="padding-top: 120px">
+  <div style="padding-top: 50px">
     <div class="container-fluid footer-panel">
       <div class="footer">
         <div class="row">
@@ -32,21 +32,11 @@
                   placeholder="Johndoe@example.com"
                 />
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label"
-                  >Feedbacks</label
-                >
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="6"
-                ></textarea>
-              </div>
+
               <div class="d-grid gap-2">
                 <button class="btn btn-warning" type="button">Sign up</button>
               </div>
             </div>
-            <div class="flex-col"></div>
             <div class="flex-col"></div>
           </div>
         </div>
@@ -68,7 +58,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Lato&family=Montserrat&family=Open+Sans&family=Oswald&family=Raleway&display=swap");
 
 .footer-panel {
-  height: 60vh;
+  height: 40vh;
   background-color: #4241a5;
 }
 

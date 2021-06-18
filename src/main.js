@@ -10,7 +10,9 @@ import Draggable from "gsap/Draggable";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import MotionPathPlugin from "gsap/MotionPathPlugin";
 gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
+import VueAgile from "vue-agile";
 
+Vue.use(VueAgile);
 Vue.config.productionTip = false;
 
 new Vue({

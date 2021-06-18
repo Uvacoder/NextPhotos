@@ -18,15 +18,14 @@
             <div class="col-md-6 pss">
               <div class="Do-card-text">
                 <div class="card-text">
-                  <h2 class="card-text-caption">OUR OFFERS:</h2>
+                  <h2 class="card-text-caption">
+                    Leading photography & videography studio in MIAMI, FL
+                  </h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Reiciendis enim corporis eum expedita maiores quis
-                    voluptatibus magni quibusdam vel? Molestias, nam eligendi,
-                    iusto nisi cum at perspiciatis labore ex deserunt dolore
-                    consequuntur dignissimos soluta voluptas, possimus incidunt
-                    eum voluptatibus. Temporibus saepe ipsam minus tempora
-                    cumque. Eveniet voluptatum dolores totam voluptates!
+                    With years of experience in the photo and video industry,
+                    Pixel Studio Productions is recognized as one of the leading
+                    portrait and wedding photographer in Houston and its
+                    surrounding areas!
                   </p>
                 </div>
               </div>
@@ -76,19 +75,34 @@
                 <div class="card-text">
                   <h2 class="card-text-caption">CONNECTING PRICELESSLY</h2>
                   <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eligendi nisi laudantium saepe cupiditate in temporibus
-                    repellendus expedita iure illo similique, accusamus quisquam
-                    delectus magni atque! Molestias fugit facere eum ab. Ex quae
-                    iure vero! Consequuntur quam aut assumenda molestias nulla
-                    expedita natus officia dolor quibusdam in exercitationem
-                    ratione totam voluptate architecto asperiores eveniet iure,
-                    quo,
+                    We have the best Modelling contaracts suited just for you.
+                    Our photographer are Top-notch and geared at creating the
+                    best brand in the industry connecting you to the top brands
+                    and bringing you to lime light .
                   </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="mobile-title">
+          <h2>Leading photography & videography studio in MIAMI, FL</h2>
+          <p>
+            With years of experience in the photo and video industry, Pixel
+            Studio Productions is recognized as one of the leading portrait and
+            wedding photographer in Houston and its surrounding areas!
+          </p>
+        </div>
+
+        <div class="mobile-title">
+          <h2>CONNECTING PRICELESSLY</h2>
+          <p>
+            We have the best Modelling contaracts suited just for you. Our
+            photographer are Top-notch and geared at creating the best brand in
+            the industry connecting you to the top brands and bringing you to
+            lime light .
+          </p>
         </div>
       </div>
     </div>
@@ -142,6 +156,9 @@ export default {
   font-size: 30px;
   font-weight: 100;
 }
+.mobile-title {
+  display: none;
+}
 
 .title p {
   font-family: "Montserrat";
@@ -163,7 +180,7 @@ export default {
   background-color: #dfdfdf;
   border-radius: 30px;
   padding: 30px 0px;
-  height: 260px;
+  height: 160px;
 }
 .Do-card-text {
   color: aliceblue;
@@ -185,6 +202,11 @@ export default {
   font-size: 30px;
 }
 
+.card-text p {
+  font-family: "Montserrat";
+
+  font-size: 18px;
+}
 .sample-section {
   width: 95%;
   margin: 0px auto;
@@ -235,6 +257,28 @@ export default {
     color: rgb(39, 39, 39);
   }
 
+  .mobile-title {
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+
+  .mobile-title h2 {
+    padding: 20px 0px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 100;
+  }
+
+  .mobile-title p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+  }
+
   .Do-card-text {
     color: aliceblue;
 
@@ -243,6 +287,14 @@ export default {
     padding: 20px 10px;
     font-weight: 100;
     background: #4241a5;
+  }
+
+  .card-text-caption p {
+    font-family: "Montserrat";
+    font-weight: 100;
+    color: white;
+    padding: 20px 0px 40px 0px;
+    font-size: 18px;
   }
 
   .card-text {
@@ -255,14 +307,8 @@ export default {
     border-radius: 0px;
     padding: 0px 0px;
   }
-  .sample-section {
-    display: none;
-  }
-
-  .sample-card {
-    padding-top: 30px;
-  }
-  #second-section {
+  .about-next-card {
+    padding: 40px 0px 20px 0px;
     display: none;
   }
 }
