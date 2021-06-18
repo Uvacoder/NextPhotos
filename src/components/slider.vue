@@ -2,7 +2,7 @@
   <div>
     <agile
       :options="myOptions"
-      class="main"
+      class="main desktop-slide"
       :autoplay="true"
       :autoplay-speed="4000"
       @after-change="(e) => (currentSlide = e.currentSlide)"
@@ -12,7 +12,34 @@
         v-for="(slide, index) in slides"
         :key="index"
       >
-        <img :src="slide" alt="image" width="1940px" />
+        <img :src="slide" alt="image" width="1940px" class="" />
+      </div>
+    </agile>
+    <!--MOBILE SLIDER-->
+    <agile
+      :options="myOptions"
+      class="main mobile-slide"
+      :autoplay="true"
+      :autoplay-speed="4000"
+      @after-change="(e) => (currentSlide = e.currentSlide)"
+    >
+      <div
+        class="slide bg-gray-900 relative"
+        v-for="(mobileSlide, index) in mobileSlides"
+        :key="index"
+      >
+        <img
+          :src="mobileSlide"
+          alt="image"
+          width="440px"
+          style="
+             {
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+          "
+        />
       </div>
     </agile>
   </div>
@@ -29,32 +56,19 @@ export default {
   data() {
     return {
       currentSlide: 0,
-      myOptions: {
-        navButtons: true,
 
-        responsive: [
-          {
-            breakpoint: 600,
-            settings: {
-              dots: false,
-            },
-          },
-
-          {
-            breakpoint: 900,
-            settings: {
-              navButtons: true,
-              dots: true,
-              infinite: false,
-            },
-          },
-        ],
-      },
       slides: [
         "https://images.pexels.com/photos/2328149/pexels-photo-2328149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "https://images.pexels.com/photos/8072285/pexels-photo-8072285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "https://images.pexels.com/photos/948875/pexels-photo-948875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         "https://images.pexels.com/photos/2788546/pexels-photo-2788546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      ],
+
+      mobileSlides: [
+        "https://images.pexels.com/photos/3568546/pexels-photo-3568546.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+        "https://images.pexels.com/photos/3863802/pexels-photo-3863802.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "https://images.pexels.com/photos/3290300/pexels-photo-3290300.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "https://images.pexels.com/photos/3222422/pexels-photo-3222422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       ],
     };
   },
@@ -137,6 +151,12 @@ export default {
   right: 0;
   border-radius: 8px 0px 0px 8px;
 }
+.desktop-slide {
+  display: block;
+}
+.mobile-slide {
+  display: none;
+}
 
 @media only screen and (max-width: 900px) {
   .slide {
@@ -145,6 +165,20 @@ export default {
     display: flex;
     height: 610px;
     justify-content: center;
+  }
+
+  .desktop-slide {
+    display: none;
+  }
+  .mobile-slide {
+    display: block;
+  }
+
+  .mobile-slide img {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
 }
 </style>
