@@ -31,9 +31,11 @@
         <img
           :src="mobileSlide"
           alt="image"
-          width="440px"
+          width="100%"
+          height="auto"
           style="
              {
+              object-fit: cover;
               background-repeat: no-repeat;
               background-attachment: fixed;
               background-size: cover;
