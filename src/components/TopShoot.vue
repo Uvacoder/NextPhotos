@@ -184,6 +184,12 @@ export default {
   padding: 20px 0px;
 }
 
+.shot-card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 18px;
+}
+
 .shot-card {
   width: 100%;
   height: auto;
