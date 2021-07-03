@@ -1,7 +1,6 @@
 <template>
   <div>
     <agile
-      :options="myOptions"
       class="main desktop-slide"
       :autoplay="true"
       :autoplay-speed="4000"
@@ -12,12 +11,11 @@
         v-for="(slide, index) in slides"
         :key="index"
       >
-        <img :src="slide" alt="image" width="1940px" class="" />
+        <img :src="slide" alt="image" width="100%" class="" />
       </div>
     </agile>
     <!--MOBILE SLIDER-->
     <agile
-      :options="myOptions"
       class="main mobile-slide"
       :autoplay="true"
       :autoplay-speed="4000"
