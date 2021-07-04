@@ -3,12 +3,13 @@
     <div class="top-shoot-section container-fluid">
       <div class="top-shoot">
         <div class="top-shoot-caption">
-          <h2>Some of our top shots with models</h2>
+          <h2>Some of our top shots photograpghers with models</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odit
-            quis voluptatibus? Officiis porro maxime repellat, quaerat
-            cupiditate similique at.Officiis porro maxime repellat, quaerat
-            cupiditate similique at.
+            We ooffer the best photograpghy and modelling contract which see our
+            models as top priority as the continue to push further immersely in
+            their career . we offer saemless connections with the top most
+            companies and agencies and we are really proud with working with
+            newbies who intend to merge with the gaints in the industry
           </p>
         </div>
         <div class="shot-gallery">
@@ -65,6 +66,14 @@
         </div>
       </div>
     </div>
+
+    <!---map -->
+
+    <div id="map-section">
+      <div class="map">
+        <img src="@/assets/images/map.png" alt="" srcset="" />
+      </div>
+    </div>
   </div>
 </template>ot-car
 
@@ -99,11 +108,18 @@ export default {
   padding: 20px 10px;
   height: auto;
 }
+
+.top-shoot-caption {
+  width: 80%;
+  margin: 0px auto;
+}
+
 .top-shoot-caption h2 {
   text-align: center !important;
   padding: 30px 0px;
   color: #efefef;
   font-size: 35px;
+  font-weight: 900;
   font-family: "Montserrat";
   text-transform: uppercase;
 }
@@ -152,7 +168,11 @@ export default {
   justify-content: center;
   margin: 10px 10px 10px 30px;
 }
-
+.map img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
 /**MEDIA QUERIES FCOR MOBILE VERSION  */
 @media only screen and (max-width: 900px) {
   .top-shoot {
@@ -164,7 +184,7 @@ export default {
 }
 
 .top-shoot-caption h2 {
-  text-align: left !important;
+  text-align: left;
   padding: 30px 0px;
   color: #efefef;
   font-size: 25px;
@@ -173,7 +193,7 @@ export default {
 }
 
 .top-shoot-caption p {
-  text-align: left !important;
+  text-align: left;
   padding: 0px 0px 30px 0px;
   color: #efefef;
   font-size: 18px;
