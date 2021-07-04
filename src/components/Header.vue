@@ -29,8 +29,17 @@
             v-show="show"
           >
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Project </a>
+              <router-link
+                :to="{ name: 'Index' }"
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                >Home</router-link
+              >
+
+              <router-link :to="{ name: 'project' }" class="nav-link" href="#"
+                >Project
+              </router-link>
               <a class="nav-link" href="#">Contact us</a>
             </div>
           </div>

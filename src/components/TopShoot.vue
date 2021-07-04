@@ -171,7 +171,7 @@ export default {
   height: auto;
   color: #efefef;
   border-radius: 0px 0px 20px 20px;
-  background-color: #2f2e51e0;
+  background-color: #1a192ce0;
 }
 
 .see-more-btn {
