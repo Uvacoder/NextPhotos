@@ -118,7 +118,7 @@ export default {
 }
 @media only screen and (max-width: 900px) {
   .footer-panel {
-    height: 140vh;
+    height: 90vh;
     padding: 0px;
     background-color: #4241a5;
   }

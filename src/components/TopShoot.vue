@@ -5,15 +5,21 @@
         <div class="top-shoot-caption">
           <h2>Some of our top shots photograpghers with models</h2>
           <p>
-            We ooffer the best photograpghy and modelling contract which see our
+            We offer the best photograpghy and modelling contract which see our
             models as top priority as the continue to push further immersely in
-            their career . we offer saemless connections with the top most
+            their career . we offer seamless connections with the top most
             companies and agencies and we are really proud with working with
             newbies who intend to merge with the gaints in the industry
           </p>
         </div>
         <div class="shot-gallery">
-          <div class="row gallery-card">
+          <div
+            class="row gallery-card"
+            :style="{
+              'background-image':
+                'url(https://images.pexels.com/photos/1488312/pexels-photo-1488312.jpeg?cs=srgb&dl=pexels-dimitri-kuliuk-1488312.jpg&fm=jpg)',
+            }"
+          >
             <div class="col-md-4">
               <div class="shot-card">
                 <img :src="image" alt="" srcset="" />
@@ -22,7 +28,7 @@
                   <div class="see-more-btn">
                     <button
                       type="button"
-                      class="btn btn-lg btn-outline-warning"
+                      class="btn model-btn btn-lg btn-outline-warning"
                     >
                       see more
                     </button>
@@ -38,7 +44,7 @@
                   <div class="see-more-btn">
                     <button
                       type="button"
-                      class="btn btn-lg btn-outline-warning"
+                      class="btn model-btn btn-lg btn-outline-warning"
                     >
                       see more
                     </button>
@@ -54,7 +60,7 @@
                   <div class="see-more-btn">
                     <button
                       type="button"
-                      class="btn btn-lg btn-outline-warning"
+                      class="btn model-btn btn-lg btn-outline-warning"
                     >
                       see more
                     </button>
@@ -85,7 +91,7 @@ export default {
       image:
         "https://images.pexels.com/photos/8072528/pexels-photo-8072528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       image2:
-        "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80",
+        "https://images.pexels.com/photos/1726999/pexels-photo-1726999.jpeg?cs=srgb&dl=pexels-davis-sanchez-1726999.jpg&fm=jpg",
       image3:
         "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80",
     };
@@ -146,13 +152,17 @@ export default {
 
 .gallery-card {
   background-color: rgb(255, 255, 255);
+  object-fit: cover;
   padding: 20px 10px;
   border-radius: 15px;
 }
-
+.model-btn {
+  height: 47px;
+  width: 170px;
+}
 .shot-card-text {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   margin-bottom: 1.5rem;
   margin-left: 10px;
   margin-right: 10px;
