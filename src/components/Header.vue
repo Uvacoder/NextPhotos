@@ -107,7 +107,7 @@ button {
 @media only screen and (max-width: 900px) {
   .navbar-collapse {
     display: flex;
-    background: rgb(189, 189, 189);
+    background: rgb(240, 240, 240);
     justify-content: flex-start;
   }
   .navbar {

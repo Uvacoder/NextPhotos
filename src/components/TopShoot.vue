@@ -25,14 +25,13 @@
                 <img :src="image" alt="" srcset="" />
                 <div class="shot-card-caption">
                   <p class="shot-card-text">ALEXA SCHIZLE</p>
-                  <div class="see-more-btn">
-                    <button
-                      type="button"
-                      class="btn model-btn btn-lg btn-outline-warning"
-                    >
-                      see more
-                    </button>
-                  </div>
+                  <p class="shot-card-text-2">
+                    Alexa being the best at what she does, Modelling with
+                    Micheal Kol's . Being the face of PIxel she is a top rising
+                    star and Modelling with us , she has been working with use
+                    for QUite A few years and has been a Huge Name in the
+                    Industry.
+                  </p>
                 </div>
               </div>
             </div>
@@ -41,14 +40,15 @@
                 <img :src="image2" alt="" srcset="" />
                 <div class="shot-card-caption">
                   <p class="shot-card-text">NEIL VÖN-HAAG</p>
-                  <div class="see-more-btn">
-                    <button
-                      type="button"
-                      class="btn model-btn btn-lg btn-outline-warning"
-                    >
-                      see more
-                    </button>
-                  </div>
+                  <p class="shot-card-text-2">
+                    Always wanting a career switch Neil is the definite
+                    character for self belief in the Industry, she made a switch
+                    from being a regular designer to a Top model featuring in
+                    different Billbords for Fast high-rising enterprises in the
+                    field . Modelling deals from Canon and some other companies
+                    such as TWITCH INC. DORRIELOS, etc . She is considered as
+                    one of our finest
+                  </p>
                 </div>
               </div>
             </div>
@@ -57,14 +57,14 @@
                 <img :src="image3" alt="" srcset="" />
                 <div class="shot-card-caption">
                   <p class="shot-card-text">KIMBERLY PATTERSON</p>
-                  <div class="see-more-btn">
-                    <button
-                      type="button"
-                      class="btn model-btn btn-lg btn-outline-warning"
-                    >
-                      see more
-                    </button>
-                  </div>
+                  <p class="shot-card-text-2">
+                    Kimberly graduated from the university of Harvard with
+                    Bachelors of Arts degree , driven by her passion for
+                    Modelling , she contacted our Agency and we have driven her
+                    from the cradles stages of Modelling with full self-proven
+                    contract which enables her the best standing out and
+                    representing our brand in Various Agencies as an Ambassador
+                  </p>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Homemade+Apple&family=Lato&family=Lora&family=Montserrat&family=Open+Sans&family=Raleway&family=Roboto&display=swap");
 
 .top-shoot-section {
-  background-color: #9f9ee7;
+  background-color: #d0cfe9;
   margin: 60px 0px 20px 0px;
   height: auto;
 }
@@ -123,7 +123,7 @@ export default {
 .top-shoot-caption h2 {
   text-align: center !important;
   padding: 30px 0px;
-  color: #efefef;
+  color: #ffffff;
   font-size: 35px;
   font-weight: 900;
   font-family: "Montserrat";
@@ -133,7 +133,7 @@ export default {
 .top-shoot-caption p {
   text-align: center !important;
   padding: 15px 0px;
-  color: #efefef;
+  color: #ffffff;
   font-size: 18px;
   font-family: "Montserrat";
 }
@@ -166,12 +166,29 @@ export default {
   margin-bottom: 1.5rem;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 15px;
+  font-family: "Montserrat";
+
   padding: 15px 0px;
   height: auto;
   color: #efefef;
   border-radius: 0px 0px 20px 20px;
-  background-color: #1a192ce0;
+  background-color: #28273be0;
+}
+.shot-card-text-2 {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px 30px;
+  height: auto;
+  font-family: "Montserrat";
+  color: #3d3c3c;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #ffffffa6;
 }
 
 .see-more-btn {
