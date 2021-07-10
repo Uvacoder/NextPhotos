@@ -5,9 +5,9 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/home",
-    name: "Index",
-    component: () => import("@/views/Index.vue"),
+    path: "/",
+    name: "Home",
+    component: () => import("@/views/index.vue"),
   },
   {
     path: "/project",

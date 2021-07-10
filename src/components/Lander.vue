@@ -17,12 +17,14 @@
                 models in the industry
               </p>
               <div>
-                <button
-                  type="button"
-                  class="btn hero-button btn-sm btn-outline-primary"
-                >
-                  Portfolio
-                </button>
+                <router-link :to="{ name: 'project' }" href="#">
+                  <button
+                    type="button"
+                    class="btn hero-button btn-sm btn-outline-primary"
+                  >
+                    Portfolio
+                  </button>
+                </router-link>
               </div>
             </div>
           </div>

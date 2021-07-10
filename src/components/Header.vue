@@ -3,11 +3,7 @@
     <header>
       <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <div class="container-fluid" id="drops">
-          <router-link
-            :to="{ name: 'Index' }"
-            class="navbar-brand"
-            href="/index"
-          >
+          <router-link :to="{ name: 'Home' }" class="navbar-brand" href="/Home">
             PIXEL PHOTO
           </router-link>
           <span id="cap">Seeing the world throught lens </span>
@@ -30,7 +26,7 @@
           >
             <div class="navbar-nav">
               <router-link
-                :to="{ name: 'Index' }"
+                :to="{ name: 'index' }"
                 class="nav-link active"
                 aria-current="page"
                 href="#"

@@ -12,7 +12,7 @@
             <div class="flex-col contact-us">
               <h2>Contact Us:</h2>
               <p>PHONE: +1(757)-505-5977</p>
-              <p>OFFICE: +1(530)-467-2122</p>
+              <p>OFFICE: +1(530)-426-2122</p>
               <p>email: pixelstudioproductions@photographer.net</p>
 
               <p>Address : MIAMI,FL UNITED STATE</p>

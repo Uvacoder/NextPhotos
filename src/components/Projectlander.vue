@@ -7,7 +7,8 @@
           Here are Some of our recent project, The company is esuring that the
           best of the best are who represents us and our package and contract
           with each model see them from grooming level to to to finest in the
-          Modelling industy.
+          Modelling industy. With fineest instrutors on-set and top quality
+          shoot-engineers, we are pioneer to give the very best .
         </p>
       </div>
     </div>
