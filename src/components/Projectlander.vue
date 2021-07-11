@@ -46,6 +46,8 @@ export default {
   width: 80%;
   margin: 0px auto;
   padding-top: 20px;
+  line-height: 2em;
+  font-size: 18px;
   padding-bottom: 20px;
   color: #474747;
   font-family: "Montserrat";

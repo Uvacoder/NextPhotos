@@ -26,7 +26,7 @@
           >
             <div class="navbar-nav">
               <router-link
-                :to="{ name: 'index' }"
+                :to="{ name: 'Home' }"
                 class="nav-link active"
                 aria-current="page"
                 href="#"
@@ -36,7 +36,9 @@
               <router-link :to="{ name: 'project' }" class="nav-link" href="#"
                 >Project
               </router-link>
-              <a class="nav-link" href="#">Contact us</a>
+              <router-link :to="{ name: 'contact' }" class="nav-link" href="#"
+                >Contact us</router-link
+              >
             </div>
           </div>
         </div>

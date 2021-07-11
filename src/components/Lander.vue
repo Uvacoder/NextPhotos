@@ -16,15 +16,24 @@
                 />
                 models in the industry
               </p>
-              <div>
+              <div class="d-flex">
                 <router-link :to="{ name: 'project' }" href="#">
                   <button
                     type="button"
                     class="btn hero-button btn-sm btn-outline-primary"
                   >
-                    Portfolio
+                    Project
                   </button>
                 </router-link>
+
+                <a href="http://" target="_blank">
+                  <button
+                    type="button"
+                    class="btn hero-button btn-sm btn-outline-primary"
+                  >
+                    Apply here
+                  </button>
+                </a>
               </div>
             </div>
           </div>

@@ -13,7 +13,7 @@
             </p>
             <div class="row wedding-image">
               <div class="col-md-4">
-                <img src="@/assets/images/gay.jpg" alt="" srcset="" />
+                <img src="@/assets/images/studio.jpg" alt="" srcset="" />
               </div>
               <div class="col-md-4">
                 <img src="@/assets/images/happy.jpg" alt="" srcset="" />
@@ -28,7 +28,7 @@
                 <img src="@/assets/images/jonathan.jpg" alt="" srcset="" />
               </div>
               <div class="col-md-4">
-                <img src="@/assets/images/studio.jpg" alt="" srcset="" />
+                <img src="@/assets/images/gay.jpg" alt="" srcset="" />
               </div>
             </div>
           </div>
@@ -96,19 +96,33 @@
           </div>
 
           <div class="patner">
+            <h2>Our sponsors</h2>
             <div class="row patner-image">
-              <div class="col-md-4">
+              <div class="col-md-2">
                 <img
                   src="@/assets/images/forbes_250x250.png"
                   alt=""
                   srcset=""
                 />
               </div>
-              <div class="col-md-4">
+              <div class="col-md-2">
                 <img src="@/assets/images/canon.png" alt="" srcset="" />
               </div>
-              <div class="col-md-4">
+              <div class="col-md-2">
                 <img src="@/assets/images/dolce-250x250.jpg" alt="" srcset="" />
+              </div>
+              <div class="col-md-2">
+                <img
+                  src="@/assets/images/louis_250x250.jpeg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="col-md-2">
+                <img src="@/assets/images/dior_250x250.jpeg" alt="" srcset="" />
+              </div>
+              <div class="col-md-2">
+                <img src="@/assets/images/lewi_250x250.png" alt="" srcset="" />
               </div>
             </div>
           </div>
@@ -177,7 +191,19 @@ export default {
   font-weight: 500;
   color: #727070;
 }
+.patner-image img {
+  width: 150px;
+  height: 90px;
+}
 
+.patner h2 {
+  margin: 20px 0px;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #727070;
+}
 @media only screen and (max-width: 900px) {
   .project-photo-title {
     width: 100%;

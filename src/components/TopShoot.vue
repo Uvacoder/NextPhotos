@@ -213,7 +213,7 @@ export default {
 .top-shoot-caption h2 {
   text-align: left;
   padding: 30px 0px;
-  color: #efefef;
+  color: #3a3a3a;
   font-size: 25px;
   font-family: "Montserrat";
   text-transform: uppercase;
@@ -222,7 +222,7 @@ export default {
 .top-shoot-caption p {
   text-align: left;
   padding: 0px 0px 30px 0px;
-  color: #efefef;
+  color: #3a3a3a;
   font-size: 18px;
   font-family: "Montserrat";
 }
