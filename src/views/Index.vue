@@ -17,6 +17,7 @@ import NextAbout from "@/components/NextAbout.vue";
 import slider from "@/components/slider.vue";
 import partners from "@/components/partners.vue";
 export default {
+  name: 'HomeComponent',
   components: {
     Lander,
     NextAbout,
