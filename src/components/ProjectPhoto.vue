@@ -94,6 +94,24 @@
               </div>
             </div>
           </div>
+
+          <div class="patner">
+            <div class="row patner-image">
+              <div class="col-md-4">
+                <img
+                  src="@/assets/images/forbes_250x250.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="col-md-4">
+                <img src="@/assets/images/canon.png" alt="" srcset="" />
+              </div>
+              <div class="col-md-4">
+                <img src="@/assets/images/dolce-250x250.jpg" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
